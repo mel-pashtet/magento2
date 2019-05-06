@@ -6,7 +6,7 @@
  * Time: 9:09 PM
  */
 
-namespace Training\Test\Model;
+namespace Training\Test\Plugin\Model;
 
 
 class Url
