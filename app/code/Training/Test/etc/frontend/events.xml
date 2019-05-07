@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
 
-    <event name="controller_action_predispatch">
+    <event name="controller_action_predispatch_catalog_product_view">
         <observer name="training_test" instance="Training\Test\Observer\RedirectToLogin" />
     </event>
 
