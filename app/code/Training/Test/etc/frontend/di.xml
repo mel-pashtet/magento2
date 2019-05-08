@@ -15,4 +15,5 @@
     <!--<type name="Magento\Catalog\Controller\Product\View">-->
         <!--<plugin name="training_test_controller" type="Training\Test\Plugin\Controller\Product\View" />-->
     <!--</type>-->
+    <preference for="Magento\Framework\App\FrontControllerInterface" type="Training\Test\App\FrontController"/> />
 </config>
