@@ -17,6 +17,15 @@
     <!--</type>-->
     <preference for="Magento\Framework\App\FrontControllerInterface" type="Training\Test\App\FrontController"/> />
 
+    <!--
+    We can use preference, then we can remove ""before" form routes.xml
+    <route id="catalog" frontName="catalog">
+        <module name="Training_Test" before="Magento_Backend"/>
+    </route>
+    -->
+    <preference for="Magento\Cms\Controller\Page\View" type="Training\Test\Controller\Page\View"/> />
+    <preference for="Magento\Catalog\Controller\Product\View" type="Training\Test\Controller\Product\View"/> />
+
     <type name="Magento\Framework\App\Router\NoRouteHandlerList">
         <arguments>
             <argument name="handlerClassesList" xsi:type="array">
