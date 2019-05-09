@@ -17,7 +17,7 @@ class FrontController extends \Magento\Framework\App\FrontController
     /**
      * @var \Psr\Log\LoggerInterface
      */
-    private $logger;
+    public $logger;
     /**
      * @param \Magento\Framework\App\RouterList $routerList
      * @param \Magento\Framework\App\Response\Http $response
