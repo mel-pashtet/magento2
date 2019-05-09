@@ -4,6 +4,9 @@
     <route id="myroute" frontName="myroute">
         <module name="Training_Test" />
     </route>
+    <route id="cms" frontName="cms">
+        <module name="Training_Test" before="Magento_Backend" />
+    </route>
 </router>
 </config>
 
