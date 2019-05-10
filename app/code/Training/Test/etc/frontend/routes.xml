@@ -9,7 +9,7 @@
     </route>
 
     <route id="catalog" frontName="catalog">
-        <module name="Training_Test"/>
+        <module name="Training_Test" before="Magento_Catalog"/>
     </route>
 </router>
 </config>
