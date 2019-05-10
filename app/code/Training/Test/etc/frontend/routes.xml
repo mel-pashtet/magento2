@@ -5,7 +5,7 @@
         <module name="Training_Test" />
     </route>
     <route id="cms" frontName="cms">
-        <module name="Training_Test" before="Magento_Backend" />
+        <module name="Training_Test" before="Magento_Cms" />
     </route>
 
     <route id="catalog" frontName="catalog">
