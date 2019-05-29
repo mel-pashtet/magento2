@@ -6,5 +6,12 @@
                 <argument translate="true" name="title" xsi:type="string">custom titile</argument>
             </action>
         </referenceBlock>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="testargument" template="Training_Render::test.phtml">
+            <arguments>
+                <argument name="background_color" xsi:type="string">red</argument>
+            </arguments>
+        </block>
+    </referenceContainer>
     </body>
 </page>
