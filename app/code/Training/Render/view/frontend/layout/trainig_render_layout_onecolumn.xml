@@ -8,10 +8,20 @@
         </referenceBlock>
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="testargument" template="Training_Render::test.phtml">
-            <arguments>
-                <argument name="background_color" xsi:type="string">red</argument>
-            </arguments>
-        </block>
-    </referenceContainer>
+                <arguments>
+                    <argument name="background_color" xsi:type="string">red</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="test_form" template="Training_Render::form.phtml">
+                <arguments>
+                    <argument name="view_model" xsi:type="object">Training\Render\ViewModel\Form</argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+
+
     </body>
 </page>
