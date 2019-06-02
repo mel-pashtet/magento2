@@ -3,6 +3,7 @@
     <referenceContainer name="top.container">
         <block class="Magento\Framework\View\Element\Template" name="topinfo" template="Training_Render::topinfo.phtml"/>
     </referenceContainer>
+    <referenceBlock name="testargument" remove="true"/>
 
 </body>
 </page>
