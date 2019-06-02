@@ -3,12 +3,6 @@
     <referenceContainer name="top.container">
         <block class="Magento\Framework\View\Element\Template" name="topinfo" template="Training_Render::topinfo.phtml"/>
     </referenceContainer>
-    <referenceContainer name="content_product">
-        <block class="Magento\Catalog\Block\Product\View" name="testarguments" template="Training_Render::test.phtml">
-            <arguments>
-                <argument name="background_color" xsi:type="string">orange</argument>
-            </arguments>
-        </block>
-    </referenceContainer>
+
 </body>
 </page>

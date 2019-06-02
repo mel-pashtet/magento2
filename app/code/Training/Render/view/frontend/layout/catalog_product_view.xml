@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<body>
+    <referenceContainer name="product.info.main">
+        <block class="Magento\Catalog\Block\Product\View"
+               name="product.view.extra"
+               template="Training_Render::test.phtml"
+               after="product.info.overview">
+            <arguments>
+                <argument name="background_color" xsi:type="string">orange</argument>
+            </arguments>
+        </block>
+    </referenceContainer>
+</body>
