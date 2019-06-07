@@ -7,6 +7,10 @@
                 <span><?= __('Add Feedback')?></span>
             </button>
         </div>
+        <div class="feedback-static">
+            <p><?= __('Total number of submitted feedback: %1', $block->getAllFeedbackNumber())?></p>
+            <p><?= __('Total number of active feedback: %1', $block->getActiveFeedbackNumber())?></p>
+        </div>
         <?= $block->getPaginationHtml() ?>
     </div>
     <div class="feedback-list">
