@@ -11,7 +11,7 @@
             <p><?= __('Total number of submitted feedback: %1', $block->getAllFeedbackNumber())?></p>
             <p><?= __('Total number of active feedback: %1', $block->getActiveFeedbackNumber())?></p>
         </div>
-        <?= $block->getPaginationHtml() ?>
+        <?= $block->getPagerHtml() ?>
     </div>
     <div class="feedback-list">
         <?php foreach ($block->getFeedbackCollection() as $feedback):?>

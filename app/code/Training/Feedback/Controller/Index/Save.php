@@ -29,7 +29,9 @@ class Save extends \Magento\Framework\App\Action\Action
             try{
                 $this->validatePost($post);
                 $feedback = $this->feedbackFactory->create();
-                $feedback->setData($post)->save();
+//                $feedback->setData($post)->save();        //метод save у моделей помечен как deprecated
+                $feedback->setData($post);
+                $this->feedbackResource->save($feedback);
                 $this->messageManager->addSuccessMessage(
                     __('Thank you for your feedback.')
                 );
