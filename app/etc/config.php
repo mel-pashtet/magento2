@@ -231,6 +231,7 @@ return [
         'Training_Training_Dependency2' => 0,
         'Training_Training_Dependency' => 1,
         'Training_Feedback' => 1,
+        'Training_FeedbackProduct' => 1,
         'Training_Js' => 1,
         'Training_AdditionalTestOM' => 0,
         'Vertex_Tax' => 1
