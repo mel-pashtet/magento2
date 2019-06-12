@@ -1,4 +1,4 @@
-<?php
+    <?php
 return [
     'modules' => [
         'Magento_Store' => 1,
@@ -229,6 +229,7 @@ return [
         'Training_Test' => 1,
         'Training_Training_Dependency2' => 0,
         'Training_Training_Dependency' => 1,
+        'Training_Js' => 1,
         'Training_AdditionalTestOM' => 0,
         'Vertex_Tax' => 1
     ]
