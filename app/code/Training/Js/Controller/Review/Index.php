@@ -1,5 +1,5 @@
 <?php
-namespace Training\JsBlock\Controller\Review;
+namespace Training\Js\Controller\Review;
 
 
 class Index extends \Magento\Framework\App\Action\Action
